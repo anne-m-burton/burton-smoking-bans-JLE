@@ -95,31 +95,21 @@ tbot_vot51_1970_2016.xlsx is an Excel spreadsheet of the Tax Burden on Tobacco (
 
 You will need to create several folders and directories and ensure the do-files and datasets are in the correct folders for the code to run
 
-Within your base directory, you need to create 1 folder:
-o	ado
+Within your base directory, you need to create 1 folder: "ado"
 
+Within analyze, you need to create 2 folders:"log", and "out"
 
-Within analyze, you need to create 2 folders:
-o	log
-o	out
+Within build, you need to create 3 folders: "analysis_data", "build_data", and "log"
 
+Within build_data, you need to create 1 folder: "brfss"
 
-Within build, you need to create 3 folders:
-o	analysis_data
-o	build_data
-o	log
-
-Within build_data, you need to create 1 folder:
-o	brfss
-
-Within brfss, you need to put 9 data files:
-o	All .XPT files beginning with “brfss”
+Within brfss, you need to put 9 data files: all .XPT files beginning with “brfss”
 
 ### Code
 
 big_do.do runs all the code
 
-You will need to change anne_base (and nielsen_base, if you have the Nielsen data) to the correct directory (lines 12 and 13)
+You will need to change anne_base (and nielsen_base, if you have the NielsenIQ data) to the correct directory (lines 12 and 13)
 
 If you have access to all datasets, these are the only two lines of code you will need to change to get everything to run on your machine
 
