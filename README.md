@@ -113,7 +113,7 @@ Within brfss, you need to put 9 data files: all .XPT files beginning with “brf
 
 ### Code
 
-<p style="color: #1e90ff;"> big_do.do </p>runs all the code
+<p style="color: red;"> big_do.do </p> runs all the code
 
 You will need to change anne_base (and nielsen_base, if you have the NielsenIQ data) to the correct directory (lines 12 and 13)
 
