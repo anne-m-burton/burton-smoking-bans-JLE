@@ -5,13 +5,19 @@ Replication package for Burton (2025) "The Impact of Smoking Bans in Bars on Alc
 
 The code in this replication package constructs all of the analysis in “The Impact of Smoking Bans in Bars on Alcohol Consumption and Smoking” (JLE-10715). Everything is executed in Stata, with big_do.do calling all other scripts in order to generate all results, tables, and figures in the paper. I've also included all publicly available data (minus BRFSS, which is too big to host on git--working on a solution).
 
+<br/>
+
 ### Data Availability and Provenance Statements
 
 I certify that I have legitimate access to and permission to use the data in the manuscript.
 
+<br/>
+
 ### Summary of Availability
 
 Some data cannot be made publicly available (NielsenIQ Consumer Panel data). Researchers may request access to the data from the Kilts Center for Marketing at the University of Chicago Booth School of Business: https://www.chicagobooth.edu/research/kilts/research-data/nielseniq
+
+<br/>
 
 ### Raw Data
 
