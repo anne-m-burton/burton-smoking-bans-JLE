@@ -103,7 +103,7 @@ You will need to create several folders and directories and ensure the do-files 
 
 Within your base directory, you need to create 1 folder: "ado"
 
-Within analyze, you need to create 2 folders:"log", and "out"
+Within analyze, you need to create 2 folders: "log", and "out"
 
 Within build, you need to create 2 folders: "analysis_data" and "log"
 
@@ -113,7 +113,7 @@ Within brfss, you need to put 9 data files: all .XPT files beginning with “brf
 
 ### Code
 
-<p style="color: red;"> big_do.do </p> runs all the code
+big_do.do runs all the code
 
 You will need to change anne_base (and nielsen_base, if you have the NielsenIQ data) to the correct directory (lines 12 and 13)
 
