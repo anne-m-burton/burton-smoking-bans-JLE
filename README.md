@@ -18,13 +18,18 @@ Some data cannot be made publicly available (NielsenIQ Consumer Panel data). Res
 #### Behavioral Risk Factor Surveillance System (BRFSS) 2004-2012
 
 brfss_raw_yyyy.XPT are the raw SAS files for each BRFSS wave downloaded from the CDC’s BRFSS website
+
 <strong> link: </strong> https://www.cdc.gov/brfss/annual_data/annual_data.htm
+
+<br/>
 
 #### NielsenIQ Consumer Panel 2004-2012
 
 Not included. To request access to the data, see https://www.chicagobooth.edu/research/kilts/research-data/nielseniq
 
-#### Alcohol Policy Information System 2004-2012
+<br/>
+
+#### Blood Alcohol Concentration (BAC) Laws from Alcohol Policy Information System 2004-2012
 
 adult-operators-of-noncommercial-motor-vehicles_changes.xlsx is an Excel spreadsheet of alcohol policy changes over time, which is used for the BAC data
 
@@ -33,6 +38,8 @@ adult-operators-of-noncommercial-motor-vehicles_changes.xlsx is an Excel spreads
 adult-operators-of-noncommercial-motor-vehicles_2021.xlsx is an Excel spreadsheet of alcohol policies in 2021, which is used for the BAC data
 
 <strong> link: </strong> https://alcoholpolicy.niaaa.nih.gov/apis-policy-topics/adult-operators-of-noncommercial-motor-vehicles/12#page-content
+
+<br/>
 
 #### Smoking Bans and City-County Crosswalks
 
