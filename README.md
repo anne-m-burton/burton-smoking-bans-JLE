@@ -113,7 +113,7 @@ Within brfss, you need to put 9 data files: all .XPT files beginning with “brf
 
 ### Code
 
-big_do.do runs all the code
+<strong> big_do.do </strong> runs all the code
 
 You will need to change anne_base (and nielsen_base, if you have the NielsenIQ data) to the correct directory (lines 12 and 13)
 
@@ -123,40 +123,40 @@ FYI, this code takes 5-6 days to run start to finish with 4-core Stata/MP 17.0. 
 
 <strong> Note: if you do not have access to the Nielsen data, you will need to comment out any line of code with Nielsen in it for the code to run </strong>
 
-config.do creates filepaths and installs necessary packages
+<strong> config.do </strong> creates filepaths and installs necessary packages
 
 <strong> Note: if you do not have access to the Nielsen data, you will need to comment out the line that begins “global nielsen_base” </strong>
 
 If you do not have access to the Nielsen data, once you make the above changes to big_do.do and config.do you will be able to run big_do.do from start to finish
 
-build_brfss_individual_data.do imports and cleans the raw BRFSS data
+<strong> build_brfss_individual_data.do </strong> imports and cleans the raw BRFSS data
 
-build_smoking_bans.do imports the raw smoking bans and population data, cleans the data, and creates the treatment variable
+<strong> build_smoking_bans.do </strong> imports the raw smoking bans and population data, cleans the data, and creates the treatment variable
 
-build_controls.do imports and cleans the raw alcohol and tobacco policy data
+<strong> build_controls.do </strong> imports and cleans the raw alcohol and tobacco policy data
 
-build_nielsen_data.do imports and cleans the raw Nielsen data
+<strong> build_nielsen_data.do </strong> imports and cleans the raw Nielsen data
 
-analysis_sd_brfss.do merges the BRFSS data with the treatment and control variables and creates additional variables to make the final analysis dataset, and runs other do-files that generate summary statistics and most of the regression analysis
+<strong> analysis_sd_brfss.do </strong> merges the BRFSS data with the treatment and control variables and creates additional variables to make the final analysis dataset, and runs other do-files that generate summary statistics and most of the regression analysis
 
-analysis_sd_brfss_sumstats.do creates the summary statistics tables for the BRFSS data and the map of smoking bans
+<strong> analysis_sd_brfss_sumstats.do </strong> creates the summary statistics tables for the BRFSS data and the map of smoking bans
 
-analysis_sd_brfss_individual_twfe.do runs the main BRFSS regressions and creates most of the estimates for the main tables
+<strong> analysis_sd_brfss_individual_twfe.do </strong> runs the main BRFSS regressions and creates most of the estimates for the main tables
 
-analysis_sd_brfss_event_studies.do runs the BRFSS event studies
+<strong> analysis_sd_brfss_event_studies.do </strong> runs the BRFSS event studies
 
-analysis_sd_brfss_heterogeneous_twfe.do runs the BRFSS robustness checks and creates estimates for the heterogeneous effects and robustness checks tables
+<strong> analysis_sd_brfss_heterogeneous_twfe.do </strong> runs the BRFSS robustness checks and creates estimates for the heterogeneous effects and robustness checks tables
 
-analysis_sd_nielsen.do merges the Nielsen data with the treatment and control variables and creates additional variables to make the final analysis dataset, and runs other do-files that generate summary statistics and most of the regression analysis
+<strong> analysis_sd_nielsen.do </strong> merges the Nielsen data with the treatment and control variables and creates additional variables to make the final analysis dataset, and runs other do-files that generate summary statistics and most of the regression analysis
 
-analysis_sd_nielsen_sumstats.do creates the summary statistics table for the Nielsen data
+<strong> analysis_sd_nielsen_sumstats.do </strong> creates the summary statistics table for the Nielsen data
 
-analysis_sd_nielsen_house_twfe.do runs the main Nielsen regressions and creates most of the estimates for the main tables
+<strong> analysis_sd_nielsen_house_twfe.do </strong> runs the main Nielsen regressions and creates most of the estimates for the main tables
 
-analysis_sd_nielsen_household_robust.do runs the Nielsen robustness checks and creates estimates for the heterogeneous effects and robustness checks tables
+<strong> analysis_sd_nielsen_household_robust.do </strong> runs the Nielsen robustness checks and creates estimates for the heterogeneous effects and robustness checks tables
 
-analysis_sd_nielsen_event_studies.do runs the Nielsen event studies
+<strong> analysis_sd_nielsen_event_studies.do </strong> runs the Nielsen event studies
 
-analysis_sd_brfss_individual_newdid.do formats the BRFSS data for the stacked and DiD imputation estimators and runs the regressions/event studies for those alternative estimators
+<strong> analysis_sd_brfss_individual_newdid.do </strong> formats the BRFSS data for the stacked and DiD imputation estimators and runs the regressions/event studies for those alternative estimators
 
-analysis_sd_nielsen_household_newdid.do formats the Nielsen data for the stacked and DiD imputation estimators and runs the regressions for those alternative estimators
+<strong> analysis_sd_nielsen_household_newdid.do </strong> formats the Nielsen data for the stacked and DiD imputation estimators and runs the regressions for those alternative estimators
