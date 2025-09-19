@@ -9,8 +9,8 @@ clear all
 capture log close
 
 * This file calls all the scripts
-local anne_base				"/Users/anneburton/Library/CloudStorage/Dropbox/smoking_bans/jle_final"
-local nielsen_base			"/Users/anneburton/Documents/nielsen"
+local anne_base				"your_path_here"
+local nielsen_base			"nielsen_path_here"
 
 cd `anne_base'
 global base `anne_base' // Change the base global to the correct base path
