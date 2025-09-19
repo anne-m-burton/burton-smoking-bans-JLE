@@ -121,11 +121,11 @@ If you have access to all datasets, these are the only two lines of code you wil
 
 FYI, this code takes 5-6 days to run start to finish with 4-core Stata/MP 17.0. It will run faster if you have more cores
 
-Note that if you do not have access to the Nielsen data, you will need to comment out any line of code with Nielsen in it for the code to run
+<strong> Note: if you do not have access to the Nielsen data, you will need to comment out any line of code with Nielsen in it for the code to run </strong>
 
 config.do creates filepaths and installs necessary packages
 
-Note that if you do not have access to the Nielsen data, you will need to comment out the line that begins “global nielsen_base”
+<strong> Note: if you do not have access to the Nielsen data, you will need to comment out the line that begins “global nielsen_base” </strong>
 
 If you do not have access to the Nielsen data, once you make the above changes to big_do.do and config.do you will be able to run big_do.do from start to finish
 
