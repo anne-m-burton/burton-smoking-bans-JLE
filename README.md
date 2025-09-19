@@ -18,16 +18,28 @@ Some data cannot be made publicly available (NielsenIQ Consumer Panel data). Res
 ##### Behavioral Risk Factor Surveillance System (BRFSS) 2004-2012
 
 brfss_raw_yyyy.XPT are the raw SAS files for each BRFSS wave downloaded from the CDC’s BRFSS website
-<strong> link: https://www.cdc.gov/brfss/annual_data/annual_data.htm </strong>
+<strong> link: </strong> https://www.cdc.gov/brfss/annual_data/annual_data.htm
 
-•	Not included: Nielsen Consumer Panel data 2004-2012. 
-o	To request access to the data, see https://www.chicagobooth.edu/research/kilts/research-data/nielseniq
-•	adult-operators-of-noncommercial-motor-vehicles_changes.xlsx is an Excel spreadsheet of alcohol policy changes over time, which is used for the BAC data
-o	link: https://alcoholpolicy.niaaa.nih.gov/apis-policy-topics/adult-operators-of-noncommercial-motor-vehicles/12/changes-over-time#page-content
-•	adult-operators-of-noncommercial-motor-vehicles_2021.xlsx is an Excel spreadsheet of alcohol policies in 2021, which is used for the BAC data
-o	link: https://alcoholpolicy.niaaa.nih.gov/apis-policy-topics/adult-operators-of-noncommercial-motor-vehicles/12#page-content
-•	ansi_county_codes_2010.txt is a text file of U.S. county and state names and corresponding FIPS codes, which is used in the creation of the smoking bans data
-o	link: https://www2.census.gov/geo/docs/reference/codes/files/national_county.txt 
+##### NielsenIQ Consumer Panel 2004-2012
+
+Not included. To request access to the data, see https://www.chicagobooth.edu/research/kilts/research-data/nielseniq
+
+##### Alcohol Policy Information System 2004-2012
+
+adult-operators-of-noncommercial-motor-vehicles_changes.xlsx is an Excel spreadsheet of alcohol policy changes over time, which is used for the BAC data
+
+<strong> link: </strong> https://alcoholpolicy.niaaa.nih.gov/apis-policy-topics/adult-operators-of-noncommercial-motor-vehicles/12/changes-over-time#page-content
+
+adult-operators-of-noncommercial-motor-vehicles_2021.xlsx is an Excel spreadsheet of alcohol policies in 2021, which is used for the BAC data
+
+<strong> link: </strong> https://alcoholpolicy.niaaa.nih.gov/apis-policy-topics/adult-operators-of-noncommercial-motor-vehicles/12#page-content
+
+##### Crosswalks
+
+ansi_county_codes_2010.txt is a text file of U.S. county and state names and corresponding FIPS codes, which is used in the creation of the smoking bans data
+
+<strong> link: </strong> https://www2.census.gov/geo/docs/reference/codes/files/national_county.txt
+
 •	ansi_place-to-county_2010.txt is a text file of U.S. place names and place types linked to counties, which is used in the creation of the smoking bans data to match cities to counties
 o	link: https://www2.census.gov/geo/docs/reference/codes/files/national_places.txt 
 •	census_incorporated_place_pop_est_2000_2009.csv is a CSV file of city population estimates for 2000-2009, which is used in the creation of the smoking bans data to generate the fraction of the county population subject to city-level smoking bans
